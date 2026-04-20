@@ -1,0 +1,1233 @@
+{
+    "data": [
+        {
+            "ObjectIdentifier": "07B9C063-9F4B-4811-84A8-0C391128790C",
+            "Properties": {
+                "domain": "SECUVIA.LOCAL",
+                "name": "WMIGPO@SECUVIA.LOCAL",
+                "distinguishedname": "CN=WMIGPO,CN=WMIPOLICY,CN=SYSTEM,DC=SECUVIA,DC=LOCAL",
+                "domainsid": "S-1-5-21-3070850441-3880253669-724310973",
+                "highvalue": false,
+                "description": "",
+                "whencreated": 1776527949
+            },
+            "IsDeleted": false,
+            "IsACLProtected": false,
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "ChildObjects": []
+        },
+        {
+            "ObjectIdentifier": "142A8F57-BC8C-43B4-B35F-786A1AFB6352",
+            "Properties": {
+                "domain": "SECUVIA.LOCAL",
+                "name": "MICROSOFTDNS@SECUVIA.LOCAL",
+                "distinguishedname": "CN=MICROSOFTDNS,CN=SYSTEM,DC=SECUVIA,DC=LOCAL",
+                "domainsid": "S-1-5-21-3070850441-3880253669-724310973",
+                "highvalue": false,
+                "description": "",
+                "whencreated": 1776528059
+            },
+            "IsDeleted": false,
+            "IsACLProtected": false,
+            "Aces": [
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-1102",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-1102",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": false,
+                    "PrincipalSID": "SECUVIA.LOCAL-S-1-5-9",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": false,
+                    "PrincipalSID": "SECUVIA.LOCAL-S-1-5-9",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": true,
+                    "PrincipalSID": "SECUVIA.LOCAL-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": true,
+                    "PrincipalSID": "SECUVIA.LOCAL-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "ChildObjects": []
+        },
+        {
+            "ObjectIdentifier": "93C32C63-5B6D-4202-911A-EFA6A420789C",
+            "Properties": {
+                "domain": "SECUVIA.LOCAL",
+                "name": "POLICYTYPE@SECUVIA.LOCAL",
+                "distinguishedname": "CN=POLICYTYPE,CN=WMIPOLICY,CN=SYSTEM,DC=SECUVIA,DC=LOCAL",
+                "domainsid": "S-1-5-21-3070850441-3880253669-724310973",
+                "highvalue": false,
+                "description": "",
+                "whencreated": 1776527949
+            },
+            "IsDeleted": false,
+            "IsACLProtected": false,
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "ChildObjects": []
+        },
+        {
+            "ObjectIdentifier": "4296467A-01D9-4EF6-99BA-AB5B55B421EE",
+            "Properties": {
+                "domain": "SECUVIA.LOCAL",
+                "name": "POLICYTEMPLATE@SECUVIA.LOCAL",
+                "distinguishedname": "CN=POLICYTEMPLATE,CN=WMIPOLICY,CN=SYSTEM,DC=SECUVIA,DC=LOCAL",
+                "domainsid": "S-1-5-21-3070850441-3880253669-724310973",
+                "highvalue": false,
+                "description": "",
+                "whencreated": 1776527949
+            },
+            "IsDeleted": false,
+            "IsACLProtected": false,
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "ChildObjects": []
+        },
+        {
+            "ObjectIdentifier": "45769ED3-3883-45AF-91E9-0CE6F91F5BF5",
+            "Properties": {
+                "domain": "SECUVIA.LOCAL",
+                "name": "WMIPOLICY@SECUVIA.LOCAL",
+                "distinguishedname": "CN=WMIPOLICY,CN=SYSTEM,DC=SECUVIA,DC=LOCAL",
+                "domainsid": "S-1-5-21-3070850441-3880253669-724310973",
+                "highvalue": false,
+                "description": "",
+                "whencreated": 1776527949
+            },
+            "IsDeleted": false,
+            "IsACLProtected": true,
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "ChildObjects": []
+        },
+        {
+            "ObjectIdentifier": "A0BC67FF-D676-461C-BEE5-E26AA76C45CF",
+            "Properties": {
+                "domain": "SECUVIA.LOCAL",
+                "name": "SOM@SECUVIA.LOCAL",
+                "distinguishedname": "CN=SOM,CN=WMIPOLICY,CN=SYSTEM,DC=SECUVIA,DC=LOCAL",
+                "domainsid": "S-1-5-21-3070850441-3880253669-724310973",
+                "highvalue": false,
+                "description": "",
+                "whencreated": 1776527949
+            },
+            "IsDeleted": false,
+            "IsACLProtected": true,
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-519",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "ChildObjects": []
+        },
+        {
+            "ObjectIdentifier": "98CE1DC2-7613-4B91-A78E-307D7CDEAC79",
+            "Properties": {
+                "domain": "SECUVIA.LOCAL",
+                "name": "COMPARTITIONSETS@SECUVIA.LOCAL",
+                "distinguishedname": "CN=COMPARTITIONSETS,CN=SYSTEM,DC=SECUVIA,DC=LOCAL",
+                "domainsid": "S-1-5-21-3070850441-3880253669-724310973",
+                "highvalue": false,
+                "description": "",
+                "whencreated": 1776527949
+            },
+            "IsDeleted": false,
+            "IsACLProtected": false,
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": true,
+                    "PrincipalSID": "SECUVIA.LOCAL-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": true,
+                    "PrincipalSID": "SECUVIA.LOCAL-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "ChildObjects": []
+        },
+        {
+            "ObjectIdentifier": "6D1B82CB-5598-41AB-9C9A-372A312431B4",
+            "Properties": {
+                "domain": "SECUVIA.LOCAL",
+                "name": "COMPARTITIONS@SECUVIA.LOCAL",
+                "distinguishedname": "CN=COMPARTITIONS,CN=SYSTEM,DC=SECUVIA,DC=LOCAL",
+                "domainsid": "S-1-5-21-3070850441-3880253669-724310973",
+                "highvalue": false,
+                "description": "",
+                "whencreated": 1776527949
+            },
+            "IsDeleted": false,
+            "IsACLProtected": false,
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": true,
+                    "PrincipalSID": "SECUVIA.LOCAL-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": true,
+                    "PrincipalSID": "SECUVIA.LOCAL-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "ChildObjects": []
+        },
+        {
+            "ObjectIdentifier": "E567C41C-F024-4F49-AABA-3C908D593927",
+            "Properties": {
+                "domain": "SECUVIA.LOCAL",
+                "name": "ADMINSDHOLDER@SECUVIA.LOCAL",
+                "distinguishedname": "CN=ADMINSDHOLDER,CN=SYSTEM,DC=SECUVIA,DC=LOCAL",
+                "domainsid": "S-1-5-21-3070850441-3880253669-724310973",
+                "highvalue": false,
+                "description": "",
+                "whencreated": 1776527949
+            },
+            "IsDeleted": false,
+            "IsACLProtected": true,
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": false,
+                    "PrincipalSID": "SECUVIA.LOCAL-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": false,
+                    "PrincipalSID": "SECUVIA.LOCAL-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "ChildObjects": []
+        },
+        {
+            "ObjectIdentifier": "29441C32-6913-4AA8-AE99-5A305813CEDC",
+            "Properties": {
+                "domain": "SECUVIA.LOCAL",
+                "name": "IP SECURITY@SECUVIA.LOCAL",
+                "distinguishedname": "CN=IP SECURITY,CN=SYSTEM,DC=SECUVIA,DC=LOCAL",
+                "domainsid": "S-1-5-21-3070850441-3880253669-724310973",
+                "highvalue": false,
+                "description": "",
+                "whencreated": 1776527949
+            },
+            "IsDeleted": false,
+            "IsACLProtected": false,
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": true,
+                    "PrincipalSID": "SECUVIA.LOCAL-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": true,
+                    "PrincipalSID": "SECUVIA.LOCAL-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "ChildObjects": []
+        },
+        {
+            "ObjectIdentifier": "B5DF3B59-334F-40DA-941A-E36D63C37925",
+            "Properties": {
+                "domain": "SECUVIA.LOCAL",
+                "name": "RAS AND IAS SERVERS ACCESS CHECK@SECUVIA.LOCAL",
+                "distinguishedname": "CN=RAS AND IAS SERVERS ACCESS CHECK,CN=SYSTEM,DC=SECUVIA,DC=LOCAL",
+                "domainsid": "S-1-5-21-3070850441-3880253669-724310973",
+                "highvalue": false,
+                "description": "",
+                "whencreated": 1776527949
+            },
+            "IsDeleted": false,
+            "IsACLProtected": false,
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-553",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-553",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": true,
+                    "PrincipalSID": "SECUVIA.LOCAL-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": true,
+                    "PrincipalSID": "SECUVIA.LOCAL-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "ChildObjects": []
+        },
+        {
+            "ObjectIdentifier": "DA4D9B26-032D-40B0-B78D-93423FEBC014",
+            "Properties": {
+                "domain": "SECUVIA.LOCAL",
+                "name": "POLICIES@SECUVIA.LOCAL",
+                "distinguishedname": "CN=POLICIES,CN=SYSTEM,DC=SECUVIA,DC=LOCAL",
+                "domainsid": "S-1-5-21-3070850441-3880253669-724310973",
+                "highvalue": false,
+                "description": "",
+                "whencreated": 1776527949
+            },
+            "IsDeleted": false,
+            "IsACLProtected": false,
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": true,
+                    "PrincipalSID": "SECUVIA.LOCAL-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": true,
+                    "PrincipalSID": "SECUVIA.LOCAL-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "ChildObjects": []
+        },
+        {
+            "ObjectIdentifier": "C68EA867-5DF3-4DC1-95B3-01C1F518F065",
+            "Properties": {
+                "domain": "SECUVIA.LOCAL",
+                "name": "MEETINGS@SECUVIA.LOCAL",
+                "distinguishedname": "CN=MEETINGS,CN=SYSTEM,DC=SECUVIA,DC=LOCAL",
+                "domainsid": "S-1-5-21-3070850441-3880253669-724310973",
+                "highvalue": false,
+                "description": "",
+                "whencreated": 1776527949
+            },
+            "IsDeleted": false,
+            "IsACLProtected": false,
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": true,
+                    "PrincipalSID": "SECUVIA.LOCAL-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": true,
+                    "PrincipalSID": "SECUVIA.LOCAL-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "ChildObjects": []
+        },
+        {
+            "ObjectIdentifier": "C77C4A58-4EEF-48E0-A0C6-6C92B5D3AF5B",
+            "Properties": {
+                "domain": "SECUVIA.LOCAL",
+                "name": "KEYS@SECUVIA.LOCAL",
+                "distinguishedname": "CN=KEYS,DC=SECUVIA,DC=LOCAL",
+                "domainsid": "S-1-5-21-3070850441-3880253669-724310973",
+                "highvalue": false,
+                "description": "Default container for key objects",
+                "whencreated": 1776527949
+            },
+            "IsDeleted": false,
+            "IsACLProtected": true,
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-516",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": false,
+                    "PrincipalSID": "SECUVIA.LOCAL-S-1-5-9",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-526",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-527",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "ChildObjects": []
+        },
+        {
+            "ObjectIdentifier": "717B4B12-2A28-4CD2-A92F-D6DF16DCE88A",
+            "Properties": {
+                "domain": "SECUVIA.LOCAL",
+                "name": "WINSOCKSERVICES@SECUVIA.LOCAL",
+                "distinguishedname": "CN=WINSOCKSERVICES,CN=SYSTEM,DC=SECUVIA,DC=LOCAL",
+                "domainsid": "S-1-5-21-3070850441-3880253669-724310973",
+                "highvalue": false,
+                "description": "",
+                "whencreated": 1776527949
+            },
+            "IsDeleted": false,
+            "IsACLProtected": false,
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": true,
+                    "PrincipalSID": "SECUVIA.LOCAL-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": true,
+                    "PrincipalSID": "SECUVIA.LOCAL-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "ChildObjects": []
+        },
+        {
+            "ObjectIdentifier": "76B89519-E2B8-4E63-AE29-3A1FD908CF74",
+            "Properties": {
+                "domain": "SECUVIA.LOCAL",
+                "name": "MANAGED SERVICE ACCOUNTS@SECUVIA.LOCAL",
+                "distinguishedname": "CN=MANAGED SERVICE ACCOUNTS,DC=SECUVIA,DC=LOCAL",
+                "domainsid": "S-1-5-21-3070850441-3880253669-724310973",
+                "highvalue": false,
+                "description": "Default container for managed service accounts",
+                "whencreated": 1776527949
+            },
+            "IsDeleted": false,
+            "IsACLProtected": false,
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": true,
+                    "PrincipalSID": "SECUVIA.LOCAL-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": true,
+                    "PrincipalSID": "SECUVIA.LOCAL-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "ChildObjects": []
+        },
+        {
+            "ObjectIdentifier": "2F39B808-3829-4CDB-A574-E4C981B2DA98",
+            "Properties": {
+                "domain": "SECUVIA.LOCAL",
+                "name": "MICROSOFT@SECUVIA.LOCAL",
+                "distinguishedname": "CN=MICROSOFT,CN=PROGRAM DATA,DC=SECUVIA,DC=LOCAL",
+                "domainsid": "S-1-5-21-3070850441-3880253669-724310973",
+                "highvalue": false,
+                "description": "Default location for storage of Microsoft application data.",
+                "whencreated": 1776527949
+            },
+            "IsDeleted": false,
+            "IsACLProtected": false,
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": true,
+                    "PrincipalSID": "SECUVIA.LOCAL-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": true,
+                    "PrincipalSID": "SECUVIA.LOCAL-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "ChildObjects": []
+        },
+        {
+            "ObjectIdentifier": "D520EBE6-8823-4C99-B849-903E62C370AA",
+            "Properties": {
+                "domain": "SECUVIA.LOCAL",
+                "name": "PROGRAM DATA@SECUVIA.LOCAL",
+                "distinguishedname": "CN=PROGRAM DATA,DC=SECUVIA,DC=LOCAL",
+                "domainsid": "S-1-5-21-3070850441-3880253669-724310973",
+                "highvalue": false,
+                "description": "Default location for storage of application data.",
+                "whencreated": 1776527949
+            },
+            "IsDeleted": false,
+            "IsACLProtected": false,
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": true,
+                    "PrincipalSID": "SECUVIA.LOCAL-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": true,
+                    "PrincipalSID": "SECUVIA.LOCAL-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "ChildObjects": []
+        },
+        {
+            "ObjectIdentifier": "480B9F81-9F07-4BF9-B911-6C65ACAC085B",
+            "Properties": {
+                "domain": "SECUVIA.LOCAL",
+                "name": "FOREIGNSECURITYPRINCIPALS@SECUVIA.LOCAL",
+                "distinguishedname": "CN=FOREIGNSECURITYPRINCIPALS,DC=SECUVIA,DC=LOCAL",
+                "domainsid": "S-1-5-21-3070850441-3880253669-724310973",
+                "highvalue": false,
+                "description": "Default container for security identifiers (SIDs) associated with objects from external, trusted domains",
+                "whencreated": 1776527949
+            },
+            "IsDeleted": false,
+            "IsACLProtected": false,
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": true,
+                    "PrincipalSID": "SECUVIA.LOCAL-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": true,
+                    "PrincipalSID": "SECUVIA.LOCAL-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "ChildObjects": []
+        },
+        {
+            "ObjectIdentifier": "CDF6B37A-5E41-4E65-8865-11AE81BF7EE1",
+            "Properties": {
+                "domain": "SECUVIA.LOCAL",
+                "name": "SYSTEM@SECUVIA.LOCAL",
+                "distinguishedname": "CN=SYSTEM,DC=SECUVIA,DC=LOCAL",
+                "domainsid": "S-1-5-21-3070850441-3880253669-724310973",
+                "highvalue": false,
+                "description": "Builtin system settings",
+                "whencreated": 1776527949
+            },
+            "IsDeleted": false,
+            "IsACLProtected": false,
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": true,
+                    "PrincipalSID": "SECUVIA.LOCAL-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": true,
+                    "PrincipalSID": "SECUVIA.LOCAL-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "ChildObjects": []
+        },
+        {
+            "ObjectIdentifier": "4EF42099-E92B-4C35-8EB9-7A4C0EF516F1",
+            "Properties": {
+                "domain": "SECUVIA.LOCAL",
+                "name": "COMPUTERS@SECUVIA.LOCAL",
+                "distinguishedname": "CN=COMPUTERS,DC=SECUVIA,DC=LOCAL",
+                "domainsid": "S-1-5-21-3070850441-3880253669-724310973",
+                "highvalue": false,
+                "description": "Default container for upgraded computer accounts",
+                "whencreated": 1776527949
+            },
+            "IsDeleted": false,
+            "IsACLProtected": false,
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": true,
+                    "PrincipalSID": "SECUVIA.LOCAL-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": true,
+                    "PrincipalSID": "SECUVIA.LOCAL-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "ChildObjects": []
+        },
+        {
+            "ObjectIdentifier": "25E68E69-8891-4895-9746-83EE702EE542",
+            "Properties": {
+                "domain": "SECUVIA.LOCAL",
+                "name": "USERS@SECUVIA.LOCAL",
+                "distinguishedname": "CN=USERS,DC=SECUVIA,DC=LOCAL",
+                "domainsid": "S-1-5-21-3070850441-3880253669-724310973",
+                "highvalue": false,
+                "description": "Default container for upgraded user accounts",
+                "whencreated": 1776527949
+            },
+            "IsDeleted": false,
+            "IsACLProtected": false,
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": true,
+                    "PrincipalSID": "SECUVIA.LOCAL-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": true,
+                    "PrincipalSID": "SECUVIA.LOCAL-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "ChildObjects": [
+                {
+                    "ObjectIdentifier": "S-1-5-21-3070850441-3880253669-724310973-518",
+                    "ObjectType": "Group"
+                },
+                {
+                    "ObjectIdentifier": "S-1-5-21-3070850441-3880253669-724310973-521",
+                    "ObjectType": "Group"
+                },
+                {
+                    "ObjectIdentifier": "S-1-5-21-3070850441-3880253669-724310973-553",
+                    "ObjectType": "Group"
+                },
+                {
+                    "ObjectIdentifier": "S-1-5-21-3070850441-3880253669-724310973-525",
+                    "ObjectType": "Group"
+                },
+                {
+                    "ObjectIdentifier": "S-1-5-21-3070850441-3880253669-724310973-502",
+                    "ObjectType": "User"
+                },
+                {
+                    "ObjectIdentifier": "S-1-5-21-3070850441-3880253669-724310973-526",
+                    "ObjectType": "Group"
+                },
+                {
+                    "ObjectIdentifier": "S-1-5-21-3070850441-3880253669-724310973-501",
+                    "ObjectType": "User"
+                },
+                {
+                    "ObjectIdentifier": "S-1-5-21-3070850441-3880253669-724310973-520",
+                    "ObjectType": "Group"
+                },
+                {
+                    "ObjectIdentifier": "S-1-5-21-3070850441-3880253669-724310973-498",
+                    "ObjectType": "Group"
+                },
+                {
+                    "ObjectIdentifier": "S-1-5-21-3070850441-3880253669-724310973-527",
+                    "ObjectType": "Group"
+                },
+                {
+                    "ObjectIdentifier": "S-1-5-21-3070850441-3880253669-724310973-519",
+                    "ObjectType": "Group"
+                },
+                {
+                    "ObjectIdentifier": "S-1-5-21-3070850441-3880253669-724310973-513",
+                    "ObjectType": "Group"
+                },
+                {
+                    "ObjectIdentifier": "S-1-5-21-3070850441-3880253669-724310973-514",
+                    "ObjectType": "Group"
+                },
+                {
+                    "ObjectIdentifier": "S-1-5-21-3070850441-3880253669-724310973-516",
+                    "ObjectType": "Group"
+                },
+                {
+                    "ObjectIdentifier": "S-1-5-21-3070850441-3880253669-724310973-515",
+                    "ObjectType": "Group"
+                },
+                {
+                    "ObjectIdentifier": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "ObjectType": "Group"
+                },
+                {
+                    "ObjectIdentifier": "S-1-5-21-3070850441-3880253669-724310973-1103",
+                    "ObjectType": "Group"
+                },
+                {
+                    "ObjectIdentifier": "S-1-5-21-3070850441-3880253669-724310973-1102",
+                    "ObjectType": "Group"
+                },
+                {
+                    "ObjectIdentifier": "S-1-5-21-3070850441-3880253669-724310973-1104",
+                    "ObjectType": "Group"
+                },
+                {
+                    "ObjectIdentifier": "S-1-5-21-3070850441-3880253669-724310973-1105",
+                    "ObjectType": "Group"
+                },
+                {
+                    "ObjectIdentifier": "S-1-5-21-3070850441-3880253669-724310973-572",
+                    "ObjectType": "Group"
+                },
+                {
+                    "ObjectIdentifier": "S-1-5-21-3070850441-3880253669-724310973-522",
+                    "ObjectType": "Group"
+                },
+                {
+                    "ObjectIdentifier": "S-1-5-21-3070850441-3880253669-724310973-517",
+                    "ObjectType": "Group"
+                },
+                {
+                    "ObjectIdentifier": "S-1-5-21-3070850441-3880253669-724310973-571",
+                    "ObjectType": "Group"
+                },
+                {
+                    "ObjectIdentifier": "S-1-5-21-3070850441-3880253669-724310973-500",
+                    "ObjectType": "User"
+                },
+                {
+                    "ObjectIdentifier": "S-1-5-21-3070850441-3880253669-724310973-1000",
+                    "ObjectType": "User"
+                }
+            ]
+        }
+    ],
+    "meta": {
+        "methods": 0,
+        "type": "containers",
+        "count": 22,
+        "version": 5
+    }
+}

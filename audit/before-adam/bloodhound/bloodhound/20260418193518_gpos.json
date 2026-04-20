@@ -1,0 +1,164 @@
+{
+    "data": [
+        {
+            "ObjectIdentifier": "DE3B5925-87FB-4408-9383-65879ABEE673",
+            "Properties": {
+                "domain": "SECUVIA.LOCAL",
+                "name": "DEFAULT DOMAIN POLICY@SECUVIA.LOCAL",
+                "distinguishedname": "CN={31B2F340-016D-11D2-945F-00C04FB984F9},CN=POLICIES,CN=SYSTEM,DC=SECUVIA,DC=LOCAL",
+                "domainsid": "S-1-5-21-3070850441-3880253669-724310973",
+                "highvalue": false,
+                "gpcpath": "\\\\SECUVIA.LOCAL\\SYSVOL\\SECUVIA.LOCAL\\POLICIES\\{31B2F340-016D-11D2-945F-00C04FB984F9}",
+                "description": "",
+                "whencreated": 1776527949
+            },
+            "IsDeleted": false,
+            "IsACLProtected": true,
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericWrite",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericWrite",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericWrite",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                }
+            ]
+        },
+        {
+            "ObjectIdentifier": "0319C734-0DF2-4A21-B45E-B22EEEDA7895",
+            "Properties": {
+                "domain": "SECUVIA.LOCAL",
+                "name": "DEFAULT DOMAIN CONTROLLERS POLICY@SECUVIA.LOCAL",
+                "distinguishedname": "CN={6AC1786C-016F-11D2-945F-00C04FB984F9},CN=POLICIES,CN=SYSTEM,DC=SECUVIA,DC=LOCAL",
+                "domainsid": "S-1-5-21-3070850441-3880253669-724310973",
+                "highvalue": false,
+                "gpcpath": "\\\\SECUVIA.LOCAL\\SYSVOL\\SECUVIA.LOCAL\\POLICIES\\{6AC1786C-016F-11D2-945F-00C04FB984F9}",
+                "description": "",
+                "whencreated": 1776527949
+            },
+            "IsDeleted": false,
+            "IsACLProtected": true,
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericWrite",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericWrite",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericWrite",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                }
+            ]
+        }
+    ],
+    "meta": {
+        "methods": 0,
+        "type": "gpos",
+        "count": 2,
+        "version": 5
+    }
+}

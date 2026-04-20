@@ -1,0 +1,167 @@
+{
+    "data": [
+        {
+            "ObjectIdentifier": "S-1-5-21-3070850441-3880253669-724310973-1001",
+            "AllowedToAct": [],
+            "PrimaryGroupSID": "S-1-5-21-3070850441-3880253669-724310973-516",
+            "LocalAdmins": {
+                "Collected": true,
+                "FailureReason": null,
+                "Results": [
+                    {
+                        "ObjectIdentifier": "S-1-5-21-3070850441-3880253669-724310973-500",
+                        "ObjectType": "User"
+                    },
+                    {
+                        "ObjectIdentifier": "S-1-5-21-3070850441-3880253669-724310973-1000",
+                        "ObjectType": "User"
+                    },
+                    {
+                        "ObjectIdentifier": "S-1-5-21-3070850441-3880253669-724310973-519",
+                        "ObjectType": "Group"
+                    },
+                    {
+                        "ObjectIdentifier": "S-1-5-21-3070850441-3880253669-724310973-512",
+                        "ObjectType": "Group"
+                    }
+                ]
+            },
+            "PSRemoteUsers": {
+                "Collected": true,
+                "FailureReason": null,
+                "Results": []
+            },
+            "Properties": {
+                "name": "SECUVIA.SECUVIA.LOCAL",
+                "domainsid": "S-1-5-21-3070850441-3880253669-724310973",
+                "domain": "SECUVIA.LOCAL",
+                "distinguishedname": "CN=SECUVIA,OU=DOMAIN CONTROLLERS,DC=SECUVIA,DC=LOCAL",
+                "unconstraineddelegation": true,
+                "enabled": true,
+                "trustedtoauth": false,
+                "samaccountname": "SECUVIA$",
+                "haslaps": false,
+                "lastlogon": 1776553161,
+                "lastlogontimestamp": 1776528058,
+                "pwdlastset": 1776528047,
+                "whencreated": 1776528018,
+                "serviceprincipalnames": [
+                    "SMTPSVC/SECUVIA",
+                    "SMTPSVC/secuvia.secuvia.local",
+                    "Dfsr-12F9A27C-BF97-4787-9364-D31B6C55EB04/secuvia.secuvia.local",
+                    "ldap/secuvia.secuvia.local/ForestDnsZones.secuvia.local",
+                    "ldap/secuvia.secuvia.local/DomainDnsZones.secuvia.local",
+                    "DNS/secuvia.secuvia.local",
+                    "GC/secuvia.secuvia.local/secuvia.local",
+                    "RestrictedKrbHost/secuvia.secuvia.local",
+                    "RestrictedKrbHost/SECUVIA",
+                    "RPC/57deb758-a62f-4b2d-a1a0-ac8119dcf16e._msdcs.secuvia.local",
+                    "HOST/SECUVIA/SECUVIA0",
+                    "HOST/secuvia.secuvia.local/SECUVIA0",
+                    "HOST/SECUVIA",
+                    "HOST/secuvia.secuvia.local",
+                    "HOST/secuvia.secuvia.local/secuvia.local",
+                    "E3514235-4B06-11D1-AB04-00C04FC2DCD2/57deb758-a62f-4b2d-a1a0-ac8119dcf16e/secuvia.local",
+                    "ldap/SECUVIA/SECUVIA0",
+                    "ldap/57deb758-a62f-4b2d-a1a0-ac8119dcf16e._msdcs.secuvia.local",
+                    "ldap/secuvia.secuvia.local/SECUVIA0",
+                    "ldap/SECUVIA",
+                    "ldap/secuvia.secuvia.local",
+                    "ldap/secuvia.secuvia.local/secuvia.local"
+                ],
+                "description": null,
+                "operatingsystem": "Windows Server 2022 Datacenter",
+                "operatingsystemname": "Windows Server 2022 Datacenter",
+                "operatingsystemservicepack": null,
+                "operatingsystemversion": "10.0 (20348)",
+                "sidhistory": []
+            },
+            "RemoteDesktopUsers": {
+                "Collected": true,
+                "FailureReason": null,
+                "Results": []
+            },
+            "DcomUsers": {
+                "Collected": true,
+                "FailureReason": null,
+                "Results": []
+            },
+            "AllowedToDelegate": [],
+            "Sessions": {
+                "Collected": true,
+                "FailureReason": null,
+                "Results": []
+            },
+            "PrivilegedSessions": {
+                "Collected": false,
+                "FailureReason": null,
+                "Results": []
+            },
+            "RegistrySessions": {
+                "Collected": false,
+                "FailureReason": null,
+                "Results": []
+            },
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "AddKeyCredentialLink",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-526",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "AddKeyCredentialLink",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-527",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericWrite",
+                    "IsInherited": true,
+                    "PrincipalSID": "SECUVIA.LOCAL-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": true,
+                    "PrincipalSID": "SECUVIA.LOCAL-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": true,
+                    "PrincipalSID": "SECUVIA.LOCAL-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "HasSIDHistory": [],
+            "IsDeleted": false,
+            "Status": null,
+            "IsACLProtected": false
+        }
+    ],
+    "meta": {
+        "methods": 0,
+        "type": "computers",
+        "count": 1,
+        "version": 5
+    }
+}

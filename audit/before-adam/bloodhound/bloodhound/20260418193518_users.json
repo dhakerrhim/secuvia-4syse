@@ -1,0 +1,493 @@
+{
+    "data": [
+        {
+            "AllowedToDelegate": [],
+            "ObjectIdentifier": "SECUVIA.LOCAL-S-1-5-20",
+            "PrimaryGroupSID": null,
+            "Properties": {
+                "domain": "SECUVIA.LOCAL",
+                "domainsid": "S-1-5-21-3070850441-3880253669-724310973",
+                "name": "NT AUTHORITY@SECUVIA.LOCAL"
+            },
+            "Aces": [],
+            "SPNTargets": [],
+            "HasSIDHistory": [],
+            "IsDeleted": false,
+            "IsACLProtected": false
+        },
+        {
+            "AllowedToDelegate": [],
+            "ObjectIdentifier": "S-1-5-21-3070850441-3880253669-724310973-1000",
+            "PrimaryGroupSID": "S-1-5-21-3070850441-3880253669-724310973-513",
+            "Properties": {
+                "name": "ADAM@SECUVIA.LOCAL",
+                "domain": "SECUVIA.LOCAL",
+                "domainsid": "S-1-5-21-3070850441-3880253669-724310973",
+                "distinguishedname": "CN=ADAM,CN=USERS,DC=SECUVIA,DC=LOCAL",
+                "unconstraineddelegation": false,
+                "trustedtoauth": false,
+                "passwordnotreqd": false,
+                "enabled": true,
+                "lastlogon": 1776519148,
+                "lastlogontimestamp": -1,
+                "pwdlastset": 1776519133,
+                "dontreqpreauth": false,
+                "pwdneverexpires": false,
+                "sensitive": false,
+                "serviceprincipalnames": [],
+                "hasspn": false,
+                "displayname": null,
+                "email": null,
+                "title": null,
+                "homedirectory": null,
+                "description": null,
+                "userpassword": null,
+                "admincount": true,
+                "sidhistory": [],
+                "whencreated": 1776527950,
+                "unixpassword": null,
+                "unicodepassword": null,
+                "logonscript": null,
+                "samaccountname": "adam",
+                "sfupassword": null
+            },
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericWrite",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "AllExtendedRights",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericWrite",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "AllExtendedRights",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericWrite",
+                    "IsInherited": false,
+                    "PrincipalSID": "SECUVIA.LOCAL-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": false,
+                    "PrincipalSID": "SECUVIA.LOCAL-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "AllExtendedRights",
+                    "IsInherited": false,
+                    "PrincipalSID": "SECUVIA.LOCAL-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": false,
+                    "PrincipalSID": "SECUVIA.LOCAL-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "SPNTargets": [],
+            "HasSIDHistory": [],
+            "IsDeleted": false,
+            "IsACLProtected": true
+        },
+        {
+            "AllowedToDelegate": [],
+            "ObjectIdentifier": "S-1-5-21-3070850441-3880253669-724310973-500",
+            "PrimaryGroupSID": "S-1-5-21-3070850441-3880253669-724310973-513",
+            "Properties": {
+                "name": "ADMINISTRATOR@SECUVIA.LOCAL",
+                "domain": "SECUVIA.LOCAL",
+                "domainsid": "S-1-5-21-3070850441-3880253669-724310973",
+                "distinguishedname": "CN=ADMINISTRATOR,CN=USERS,DC=SECUVIA,DC=LOCAL",
+                "unconstraineddelegation": false,
+                "trustedtoauth": false,
+                "passwordnotreqd": false,
+                "enabled": true,
+                "lastlogon": 1776555318,
+                "lastlogontimestamp": 1776528185,
+                "pwdlastset": 1776527832,
+                "dontreqpreauth": false,
+                "pwdneverexpires": true,
+                "sensitive": false,
+                "serviceprincipalnames": [],
+                "hasspn": false,
+                "displayname": null,
+                "email": null,
+                "title": null,
+                "homedirectory": null,
+                "description": "Built-in account for administering the computer/domain",
+                "userpassword": null,
+                "admincount": true,
+                "sidhistory": [],
+                "whencreated": 1776527950,
+                "unixpassword": null,
+                "unicodepassword": null,
+                "logonscript": null,
+                "samaccountname": "Administrator",
+                "sfupassword": null
+            },
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericWrite",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "AllExtendedRights",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericWrite",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "AllExtendedRights",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericWrite",
+                    "IsInherited": false,
+                    "PrincipalSID": "SECUVIA.LOCAL-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": false,
+                    "PrincipalSID": "SECUVIA.LOCAL-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "AllExtendedRights",
+                    "IsInherited": false,
+                    "PrincipalSID": "SECUVIA.LOCAL-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": false,
+                    "PrincipalSID": "SECUVIA.LOCAL-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "SPNTargets": [],
+            "HasSIDHistory": [],
+            "IsDeleted": false,
+            "IsACLProtected": true
+        },
+        {
+            "AllowedToDelegate": [],
+            "ObjectIdentifier": "S-1-5-21-3070850441-3880253669-724310973-502",
+            "PrimaryGroupSID": "S-1-5-21-3070850441-3880253669-724310973-513",
+            "Properties": {
+                "name": "KRBTGT@SECUVIA.LOCAL",
+                "domain": "SECUVIA.LOCAL",
+                "domainsid": "S-1-5-21-3070850441-3880253669-724310973",
+                "distinguishedname": "CN=KRBTGT,CN=USERS,DC=SECUVIA,DC=LOCAL",
+                "unconstraineddelegation": false,
+                "trustedtoauth": false,
+                "passwordnotreqd": false,
+                "enabled": false,
+                "lastlogon": 0,
+                "lastlogontimestamp": -1,
+                "pwdlastset": 1776528019,
+                "dontreqpreauth": false,
+                "pwdneverexpires": false,
+                "sensitive": false,
+                "serviceprincipalnames": [
+                    "kadmin/changepw"
+                ],
+                "hasspn": true,
+                "displayname": null,
+                "email": null,
+                "title": null,
+                "homedirectory": null,
+                "description": "Key Distribution Center Service Account",
+                "userpassword": null,
+                "admincount": true,
+                "sidhistory": [],
+                "whencreated": 1776528019,
+                "unixpassword": null,
+                "unicodepassword": null,
+                "logonscript": null,
+                "samaccountname": "krbtgt",
+                "sfupassword": null
+            },
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericWrite",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "AllExtendedRights",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericWrite",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "AllExtendedRights",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericWrite",
+                    "IsInherited": false,
+                    "PrincipalSID": "SECUVIA.LOCAL-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": false,
+                    "PrincipalSID": "SECUVIA.LOCAL-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "AllExtendedRights",
+                    "IsInherited": false,
+                    "PrincipalSID": "SECUVIA.LOCAL-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": false,
+                    "PrincipalSID": "SECUVIA.LOCAL-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "SPNTargets": [],
+            "HasSIDHistory": [],
+            "IsDeleted": false,
+            "IsACLProtected": true
+        },
+        {
+            "AllowedToDelegate": [],
+            "ObjectIdentifier": "S-1-5-21-3070850441-3880253669-724310973-501",
+            "PrimaryGroupSID": "S-1-5-21-3070850441-3880253669-724310973-514",
+            "Properties": {
+                "name": "GUEST@SECUVIA.LOCAL",
+                "domain": "SECUVIA.LOCAL",
+                "domainsid": "S-1-5-21-3070850441-3880253669-724310973",
+                "distinguishedname": "CN=GUEST,CN=USERS,DC=SECUVIA,DC=LOCAL",
+                "unconstraineddelegation": false,
+                "trustedtoauth": false,
+                "passwordnotreqd": true,
+                "enabled": false,
+                "lastlogon": 0,
+                "lastlogontimestamp": -1,
+                "pwdlastset": 0,
+                "dontreqpreauth": false,
+                "pwdneverexpires": true,
+                "sensitive": false,
+                "serviceprincipalnames": [],
+                "hasspn": false,
+                "displayname": null,
+                "email": null,
+                "title": null,
+                "homedirectory": null,
+                "description": "Built-in account for guest access to the computer/domain",
+                "userpassword": null,
+                "admincount": false,
+                "sidhistory": [],
+                "whencreated": 1776527950,
+                "unixpassword": null,
+                "unicodepassword": null,
+                "logonscript": null,
+                "samaccountname": "Guest",
+                "sfupassword": null
+            },
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "SECUVIA.LOCAL-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": false,
+                    "PrincipalSID": "SECUVIA.LOCAL-S-1-5-32-548",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "AddKeyCredentialLink",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-526",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "AddKeyCredentialLink",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-527",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-3070850441-3880253669-724310973-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericWrite",
+                    "IsInherited": true,
+                    "PrincipalSID": "SECUVIA.LOCAL-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": true,
+                    "PrincipalSID": "SECUVIA.LOCAL-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "AllExtendedRights",
+                    "IsInherited": true,
+                    "PrincipalSID": "SECUVIA.LOCAL-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": true,
+                    "PrincipalSID": "SECUVIA.LOCAL-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "SPNTargets": [],
+            "HasSIDHistory": [],
+            "IsDeleted": false,
+            "IsACLProtected": false
+        }
+    ],
+    "meta": {
+        "methods": 0,
+        "type": "users",
+        "count": 5,
+        "version": 5
+    }
+}
