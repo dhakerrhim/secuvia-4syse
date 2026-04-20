@@ -1,0 +1,32 @@
+# Fichiers lourds
+*.iso
+*.vmdk
+*.ova
+*.qcow2
+
+# Snapshots VMware
+*.vmsd
+*.vmss
+*.nvram
+
+# Secrets (si jamais)
+*.pfx
+*.key
+*.pem
+credentials.txt
+mots_de_passe.txt
+
+# Windows / macOS
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Logs volumineux
+*.evtx
+*.pcapng
+# Autoriser les petits pcap d'exemple :
+!demo_dhcp.pcap
+
+# Dossier temp
+tmp/
+temp/
