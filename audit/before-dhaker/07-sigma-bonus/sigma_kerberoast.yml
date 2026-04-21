@@ -1,0 +1,40 @@
+title: Possible Kerberoasting - TGS-REQ with RC4 encryption
+id: 4f3a1b2e-5d6c-4a1a-9b3e-2c8f7a1d9e11
+status: experimental
+description: |
+  Detects Kerberos TGS-REQ (Event 4769) requesting a service ticket with RC4-HMAC (etype 0x17)
+  encryption. Modern clients use AES256 (etype 0x12). RC4 is a strong indicator of a
+  Kerberoasting attempt (Impacket GetUserSPNs, Rubeus kerberoast) because the attacker
+  forces RC4 to obtain a crackable ticket signature.
+author: Dhaker (Secuvia 4SYSE)
+date: 2026/04/20
+references:
+  - https://attack.mitre.org/techniques/T1558/003/
+  - https://learn.microsoft.com/windows/security/threat-protection/auditing/event-4769
+  - https://www.harmj0y.net/blog/redteaming/kerberoasting-revisited/
+tags:
+  - attack.credential_access
+  - attack.t1558.003
+logsource:
+  product: windows
+  service: security
+detection:
+  selection:
+    EventID: 4769
+    TicketEncryptionType: '0x17'   # RC4_HMAC_MD5
+    TicketOptions|startswith: '0x4081'
+  filter_machine_accounts:
+    TargetUserName|endswith: '$'    # Exclure les comptes machine légitimes
+  filter_krbtgt:
+    ServiceName: 'krbtgt'
+  condition: selection and not (filter_machine_accounts or filter_krbtgt)
+fields:
+  - IpAddress
+  - TargetUserName
+  - ServiceName
+  - TicketEncryptionType
+  - TicketOptions
+falsepositives:
+  - Legacy applications still requesting RC4 tickets (rare, à documenter côté SOC)
+  - Scans de sécurité internes autorisés (liste blanche IP à maintenir)
+level: high
