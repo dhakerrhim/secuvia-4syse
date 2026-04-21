@@ -71,3 +71,13 @@ Host script results:
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 190.11 seconds
+
+
+
+### Synthèse de l'Audit de Surface d'Attaque (Nmap)
+
+Risque : Une surface d'attaque trop large. Le port 80 (HTTP) expose un serveur IIS qui pourrait être vulnérable, et le port 5985 (WinRM) est une cible privilégiée pour le mouvement latéral.
+
+Scoring : Moyen (6.5/10).
+
+Recommandation : Appliquer une politique de filtrage (Firewall) pour limiter l'accès aux ports RPC et WinRM uniquement aux machines d'administration. Désactiver le HTTP (80) au profit du HTTPS.

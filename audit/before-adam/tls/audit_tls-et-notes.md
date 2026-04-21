@@ -211,3 +211,11 @@ Could not determine the protocol, only simulating generic clients.
 
  Done 2026-04-18 21:11:57 [  93s] -->> 192.168.10.10:636 (192.168.10.10) <<--
 
+
+### Synthèse de l'Audit de Sécurité des Flux (TLS/LDAPS)
+
+Risque : Faible/Moyen. Ces protocoles sont obsolètes et vulnérables à des attaques de type "Man-in-the-Middle" (comme POODLE ou BEAST).
+
+Scoring : Faible (4.0/10).
+
+Recommandation : Désactiver TLS 1.0 et 1.1 dans le registre Windows du serveur SECUVIA pour n'autoriser que TLS 1.2 et 1.3.
