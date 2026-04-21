@@ -1,0 +1,10 @@
+# Preuve AFTER - DNS zone transfer (R1)
+# Date : Tue Apr 21 14:25:39 CEST 2026
+# Cible : 10.10.10.10
+# Commande : dig AXFR @10.10.10.10 secuvia.local
+
+
+; <<>> DiG 9.20.11-1ubuntu2.2-Ubuntu <<>> AXFR @10.10.10.10 secuvia.local
+; (1 server found)
+;; global options: +cmd
+; Transfer failed.

@@ -1,0 +1,9 @@
+
+Testing all IPv4 addresses (port 636): 10.10.10.10
+-----------------------------------------------------
+ Start 2026-04-21 14:25:49        -->> 10.10.10.10:636 (10.10.10.10) <<--
+
+ rDNS (10.10.10.10):     --
+
+ 10.10.10.10:636 doesn't seem to be a TLS/SSL enabled server
+ The results might look ok but they could be nonsense. Really proceed ? ("yes" to continue) --> 

@@ -1,0 +1,19 @@
+# Preuve AFTER - LDAP Signing (R3)
+# Date : Tue Apr 21 14:25:47 CEST 2026
+# Test : ldapsearch -x (anonymous, sans signing)
+
+# extended LDIF
+#
+# LDAPv3
+# base <dc=secuvia,dc=local> with scope baseObject
+# filter: (objectClass=*)
+# requesting: ALL
+#
+
+# search result
+search: 2
+result: 1 Operations error
+text: 000004DC: LdapErr: DSID-0C090AC9, comment: In order to perform this opera
+ tion a successful bind must be completed on the connection., data 0, v4f7c
+
+# numResponses: 1

@@ -1,0 +1,25 @@
+# Preuve AFTER - Certificat LDAPS (R2)
+# Date : Tue Apr 21 14:25:46 CEST 2026
+# Cible : 10.10.10.10:636
+
+Connecting to 10.10.10.10
+write:errno=104
+CONNECTED(00000003)
+---
+no peer certificate available
+---
+No client certificate CA names sent
+Negotiated TLS1.3 group: <NULL>
+---
+SSL handshake has read 0 bytes and written 1533 bytes
+Verification: OK
+---
+New, (NONE), Cipher is (NONE)
+Protocol: TLSv1.3
+This TLS version forbids renegotiation.
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+Early data was not sent
+Verify return code: 0 (ok)
+---

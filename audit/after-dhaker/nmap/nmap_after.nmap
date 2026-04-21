@@ -1,0 +1,18 @@
+# Nmap 7.95 scan initiated Tue Apr 21 14:25:47 2026 as: nmap -Pn -sS -p 53,88,135,389,445,464,636,3268,3269,5985 -oA /home/dhaker/secuvia-audit/after-dhaker/20260421_142539/nmap/nmap_after 10.10.10.10
+Nmap scan report for 10.10.10.10
+Host is up (0.00090s latency).
+
+PORT     STATE SERVICE
+53/tcp   open  domain
+88/tcp   open  kerberos-sec
+135/tcp  open  msrpc
+389/tcp  open  ldap
+445/tcp  open  microsoft-ds
+464/tcp  open  kpasswd5
+636/tcp  open  ldapssl
+3268/tcp open  globalcatLDAP
+3269/tcp open  globalcatLDAPssl
+5985/tcp open  wsman
+MAC Address: 00:0C:29:92:24:B4 (VMware)
+
+# Nmap done at Tue Apr 21 14:26:00 2026 -- 1 IP address (1 host up) scanned in 13.11 seconds

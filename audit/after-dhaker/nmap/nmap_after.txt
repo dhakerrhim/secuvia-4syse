@@ -1,0 +1,18 @@
+Starting Nmap 7.95 ( https://nmap.org ) at 2026-04-21 14:25 CEST
+Nmap scan report for 10.10.10.10
+Host is up (0.00090s latency).
+
+PORT     STATE SERVICE
+53/tcp   open  domain
+88/tcp   open  kerberos-sec
+135/tcp  open  msrpc
+389/tcp  open  ldap
+445/tcp  open  microsoft-ds
+464/tcp  open  kpasswd5
+636/tcp  open  ldapssl
+3268/tcp open  globalcatLDAP
+3269/tcp open  globalcatLDAPssl
+5985/tcp open  wsman
+MAC Address: 00:0C:29:92:24:B4 (VMware)
+
+Nmap done: 1 IP address (1 host up) scanned in 13.11 seconds
