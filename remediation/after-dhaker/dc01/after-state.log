@@ -1,0 +1,44 @@
+﻿=== DNS Zone - Configuration APRES remediation R1 ===
+
+ZoneName      ZoneType SecureSecondaries        IsDsIntegrated
+--------      -------- -----------------        --------------
+secuvia.local Primary  TransferToZoneNameServer           True
+
+
+
+
+=== Certificats TLS APRES remediation R2 ===
+
+
+Thumbprint  : BBAB2513B9ACB5BF9F89A97E22833361209A639B
+Subject     : CN=secuvia.local
+DnsNameList : {secuvia.local, WIN-L78MGN0FIDP.secuvia.local}
+NotAfter    : 20/04/2027 17:19:28
+
+Thumbprint  : 18BA3B92D8BBA0D5BDFE134CFF6DB4BD6595F9EB
+Subject     : CN=WIN-L78MGN0FIDP.secuvia.local
+DnsNameList : {WIN-L78MGN0FIDP.secuvia.local, WIN-L78MGN0FIDP, secuvia.local}
+NotAfter    : 21/04/2027 14:22:10
+
+
+
+
+
+=== LDAP Signing APRES remediation R3 ===
+
+ldapserverintegrity
+-------------------
+                  2
+
+
+
+
+=== Service WEF APRES remediation R4 ===
+
+Name    Status StartType
+----    ------ ---------
+Wecsvc Running Automatic
+
+
+
+

@@ -1,0 +1,36 @@
+﻿=== DNS Zone - Configuration avant remediation ===
+
+ZoneName      ZoneType SecureSecondaries IsDsIntegrated
+--------      -------- ----------------- --------------
+secuvia.local Primary  TransferAnyServer           True
+
+
+
+
+=== Certificats TLS presents pour LDAPS ===
+
+Thumbprint                               Subject          NotAfter           
+----------                               -------          --------           
+BBAB2513B9ACB5BF9F89A97E22833361209A639B CN=secuvia.local 20/04/2027 17:19:28
+
+
+
+
+=== LDAP Signing Integrity actuel ===
+
+ldapserverintegrity
+-------------------
+                  1
+
+
+
+
+=== Windows Event Collector - Etat du service ===
+
+Name    Status StartType
+----    ------ ---------
+Wecsvc Stopped    Manual
+
+
+
+

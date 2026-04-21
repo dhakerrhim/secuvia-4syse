@@ -1,0 +1,74 @@
+[14:22:09] [INFO] Démarrage du script - DryRun=False
+[14:22:09] [INFO] Dossier de sortie : C:\secuvia-hardening-proofs
+[14:22:09] [INFO] Logs : C:\secuvia-hardening-proofs\logs_20260421_142209
+[14:22:09] [SECTION] === PHASE 1 - CAPTURE DE L'ETAT INITIAL (BEFORE) ===
+[14:22:09] [INFO] Capture de l'etat BEFORE dans C:\secuvia-hardening-proofs\logs_20260421_142209\before-state.log
+[14:22:09] [INFO] DNS Zone - Configuration avant remediation
+[14:22:09] [INFO] Certificats TLS presents pour LDAPS
+[14:22:09] [INFO] LDAP Signing Integrity actuel
+[14:22:09] [INFO] Windows Event Collector - Etat du service
+[14:22:09] [OK] Etat BEFORE capture OK
+[14:22:09] [SECTION] === R1 - DNS ZONE TRANSFER (vuln A3, CVSS 5.3) ===
+[14:22:09] [INFO] Configuration actuelle : SecureSecondaries = TransferAnyServer
+[14:22:09] [INFO] Restriction du transfert aux Name Servers autorises...
+[14:22:09] [OK] Zone transfer restreint avec succes
+[14:22:09] [SECTION] === R2 - CERTIFICAT LDAPS (vuln TLS-1, CVSS 7.5) ===
+[14:22:09] [INFO] Creation du certificat auto-signe pour WIN-L78MGN0FIDP.secuvia.local...
+[14:22:25] [OK] Certificat cree : 18BA3B92D8BBA0D5BDFE134CFF6DB4BD6595F9EB
+[14:23:45] [INFO] Subject : CN=WIN-L78MGN0FIDP.secuvia.local
+[14:23:45] [INFO] Expiration : 04/21/2027 14:22:10
+[14:23:45] [INFO] Redemarrage du service NTDS...
+[14:24:30] [OK] NTDS redemarre
+[14:24:30] [SECTION] === R3 - LDAP SIGNING INTEGRITY (vuln TLS-2, CVSS 6.5) ===
+[14:24:30] [INFO] Valeur actuelle LDAPServerIntegrity : 1
+[14:24:30] [INFO] Cible : 2 (Require signing)
+[14:24:30] [OK] Nouvelle valeur : 2
+[14:24:30] [SECTION] === R4 - WINDOWS EVENT FORWARDING (vuln A5, CVSS 7.5) ===
+[14:24:30] [INFO] Etat actuel du service Wecsvc : Stopped
+[14:24:30] [INFO] Configuration WEF mode source-initiated...
+[14:24:30] [INFO] Verification WinRM...
+[14:24:31] [INFO] Activation du canal Security logs...
+[14:24:31] [INFO] Ajout permission lecture log Security pour NETWORK SERVICE
+[14:24:31] [OK] WEF configure en mode source-initiated
+[14:24:31] [INFO] Prochaine etape : deployer GPO client pour pointer vers ce collecteur
+[14:24:31] [SECTION] === PHASE 6 - CAPTURE DE L'ETAT FINAL (AFTER) ===
+[14:24:36] [INFO] DNS Zone - Configuration APRES remediation R1
+[14:24:36] [INFO] Certificats TLS APRES remediation R2
+[14:24:36] [INFO] LDAP Signing APRES remediation R3
+[14:24:36] [INFO] Service WEF APRES remediation R4
+[14:24:36] [SECTION] === SYNTHESE DES REMEDIATIONS APPLIQUEES ===
+
++----------------+------------+----------+----------+
+| Remediation    | Vuln       | CVSS     | Statut   |
++----------------+------------+----------+----------+
+| R1 DNS AXFR    | A3         | 5.3      | Applique |
+| R2 LDAPS cert  | TLS-1      | 7.5      | Applique |
+| R3 LDAP sign   | TLS-2      | 6.5      | Applique |
+| R4 WEF         | A5         | 7.5      | Applique |
++----------------+------------+----------+----------+
+
+GAINS ESTIMES :
+  - Score de hardening : +18 points (dans 4/25 du barÃ¨me)
+  - Vulns traitees : 4 sur 10 du registre
+  - Temps execution : ~5 minutes
+
+FICHIERS GENERES :
+  C:\secuvia-hardening-proofs\logs_20260421_142209\hardening-main.log
+  C:\secuvia-hardening-proofs\logs_20260421_142209\before-state.log
+  C:\secuvia-hardening-proofs\logs_20260421_142209\after-state.log
+  C:\secuvia-hardening-proofs\logs_20260421_142209\rollback.ps1
+
+PROCHAINES ETAPES COTE KALI :
+  1. Capturer les AFTER depuis Kali :
+     dig AXFR @10.10.10.10 secuvia.local       # Doit retourner 'Transfer failed'
+     testssl.sh 10.10.10.10:636                # Doit montrer TLS 1.2/1.3 + cert
+     nmap -p 636 10.10.10.10                   # Port 636 ldapssl avec cert valide
+
+  2. Screenshots BEFORE/AFTER pour le rapport.
+
+  3. Push sur Git :
+     git add remediation/after-dhaker/
+     git commit -m "[remediation] J3 : 4 hardenings appliquees - AXFR/LDAPS/signing/WEF"
+     git push
+
+[14:24:36] [OK] Script termine avec succes
